@@ -1,2 +1,2 @@
 # wordpress test
-
+Removing themes 16 and 17...
