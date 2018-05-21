@@ -1,7 +1,6 @@
 <p><b>"index.php"</b></p>
 <hr>
-<h1><?php bloginfo('name'); ?></h1>
-<p><?php bloginfo('description'); ?></p>
+<?php get_header(); ?>
 
 <?php 
 	while (have_posts()) {
@@ -11,3 +10,5 @@
 		<hr>
 	<?php }
  ?>
+
+ <?php get_footer(); ?>
